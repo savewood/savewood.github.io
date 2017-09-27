@@ -121,6 +121,9 @@ hr {
 .navbar-custom .nav li a {
 	text-transform: uppercase;
 	letter-spacing: 1px;
+	-webkit-transition: color .3s ease-in-out;
+	-moz-transition: color .3s ease-in-out;
+	transition: color .3s ease-in-out;
 }
 .navbar-custom .nav li a:hover {
 	outline: 0;
@@ -161,6 +164,9 @@ hr {
 	padding: 10px 20px;
 	border-color: #121d1f;
 	border-radius: 0;
+	-webkit-transition: background-color .3s ease-in-out;
+	-moz-transition: background-color .3s ease-in-out;
+	transition: background-color .3s ease-in-out;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active {
 	color: #fff;
