@@ -121,9 +121,6 @@ hr {
 .navbar-custom .nav li a {
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	-webkit-transition: background .3s ease-in-out;
-	-moz-transition: background .3s ease-in-out;
-	transition: background .3s ease-in-out;
 }
 .navbar-custom .nav li a:hover {
 	outline: 0;
