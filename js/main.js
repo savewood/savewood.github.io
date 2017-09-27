@@ -123,6 +123,15 @@ var canvasDots = function() {
         array: []
     };
 
+    if (window.innerWidth <= 768) {
+        dots = {
+            nb: 200,
+            distance: 50,
+            d_radius: 90,
+            array: []
+        }
+    }
+
     function Dot() {
         this.x = Math.random() * canvas.width;
         this.y = Math.random() * canvas.height;
