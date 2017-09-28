@@ -38,6 +38,10 @@ canvas {
 #header {
 	height: 100vh;
 }
+.container {
+	position: relative;
+	z-index: 1;
+}
 p.intro {
 	font-size: 16px;
 	margin: 12px 0 0;
